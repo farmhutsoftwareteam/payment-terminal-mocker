@@ -1,0 +1,15 @@
+{
+    "data": {
+      "OperationalStatus": "0",
+      "terminalOSVersion": "Phoenix",
+      "terminalProfile": "Profile1",
+      "terminalSoftwareVersion": "vX.X.X"
+    },
+    "header": {
+      "indicator": "",
+      "response": "noCode",
+      "transaction": "commTest",
+      "version": "2"
+    }
+  }
+  
