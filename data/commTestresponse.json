@@ -1,6 +1,6 @@
 {
     "data": {
-      "OperationalStatus": "0",
+      "operationalStatus": "0",
       "terminalOSVersion": "Phoenix",
       "terminalProfile": "Profile1",
       "terminalSoftwareVersion": "vX.X.X"

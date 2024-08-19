@@ -1,0 +1,43 @@
+{
+    "data": {
+      "acquirerName": "DEMO",
+      "amount": "1200",
+      "authorizationCode": "XXXXXX",
+      "batch": "000001",
+      "cardRangeId": "Amex_37_15_PCP",
+      "cardRangeName": "Amex_37_15_PCP",
+      "cardType": "1",
+      "cardholderName": "VALUED CUSTOMER           ",
+      "ebtAmount": "0",
+      "emvAppCryptogram": "5604267673B4EEEE",
+      "emvAppEffectiveDate": "241130",
+      "emvAppId": "A000000025010901",
+      "emvAppName": "AMERICAN EXPRESS",
+      "emvArc": "00",
+      "emvCvm": "04",
+      "emvIad": "06020103A20100",
+      "emvTsi": "E800",
+      "emvTvr": "0400008000",
+      "exp": "2411",
+      "invoice": "3",
+      "issuerName": "Amex",
+      "merchantID": "",
+      "merchantName": "Merchant",
+      "pan": "000000000001556",
+      "paymentType": "Credit",
+      "posEntryMode": "7",
+      "rrn": "111111111111",
+      "terminalNumber": "",
+      "token": "DC2DA40DBBE5FB759BC11C73E282CE70",
+      "transactionDate": "240808",
+      "transactionId": "1723103515",
+      "transactionResponse": "00",
+      "transactionTime": "005155"
+    },
+    "header": {
+      "indicator": "response",
+      "response": "approved",
+      "transaction": "sale",
+      "version": "2"
+    }
+  }
