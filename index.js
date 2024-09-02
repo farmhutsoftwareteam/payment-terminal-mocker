@@ -14,15 +14,22 @@ app.post('/cgi-bin/vol/transaction', (req, res) => {
     sendResponse(res, responseFile);
   } else if (req.body.header.transaction === 'sale') {
     responseFile = 'paymentResponse.json';
-    setTimeout(() => sendResponse(res, responseFile), 3000);
+    setTimeout(() => sendResponse(res, responseFile, req.body.data.amount), 3000);
   } else {
     return res.status(400).json({ error: 'Unsupported transaction type' });
   }
 });
 
-function sendResponse(res, responseFile) {
-  const response = fs.readFileSync(path.join(__dirname, 'data', responseFile), 'utf-8');
-  res.json(JSON.parse(response));
+function sendResponse(res, responseFile, amount) {
+  let response = fs.readFileSync(path.join(__dirname, 'data', responseFile), 'utf-8');
+  response = JSON.parse(response);
+
+  if (responseFile === 'paymentResponse.json') {
+    response.data.transactionId = Math.floor(Math.random() * 10000000000).toString();
+    response.data.amount = amount;
+  }
+
+  res.json(response);
   console.log(`Response sent for ${responseFile} at ${new Date().toISOString()}`);
 }
 
