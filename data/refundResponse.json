@@ -1,0 +1,36 @@
+{
+  "data": {
+    "acquirerName": "TSYS Sierra",
+    "amount": "200",
+    "authorizationCode": "585753",
+    "batch": "000001",
+    "cardRangeId": "Amex_37_15_PCP",
+    "cardRangeName": "Amex_37_15_PCP",
+    "cardType": "1",
+    "cardholderName": "VALUED CUSTOMER           ",
+    "ebtAmount": "0",
+    "exp": "2810",
+    "hostResponseText": "APPROVAL 585753     ",
+    "invoice": "2",
+    "issuerName": "Amex",
+    "maskedPAN": "370382*****2947",
+    "merchantID": "201100094060",
+    "merchantName": "Merchant Name",
+    "pan": "000000000002947",
+    "paymentType": "Credit",
+    "posEntryMode": "7",
+    "rrn": "428503167503",
+    "terminalNumber": "",
+    "token": "FiTZG4rjwba2947",
+    "transactionDate": "241010",
+    "transactionId": "009021562980307",
+    "transactionResponse": "00",
+    "transactionTime": "205415"
+  },
+  "header": {
+    "indicator": "response",
+    "response": "approved",
+    "transaction": "refund",
+    "version": "2"
+  }
+}
